@@ -45,7 +45,7 @@ class GoogleSignInAccount implements GoogleIdentity {
         id = data.id,
         photoUrl = data.photoUrl,
         _idToken = data.idToken,
-        _serverAuthCode = data.serverAuthCode,{
+        _serverAuthCode = data.serverAuthCode {
     assert(id != null);
   }
 
